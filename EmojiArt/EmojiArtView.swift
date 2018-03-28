@@ -20,7 +20,7 @@ class EmojiArtView: UIView, UIDropInteractionDelegate {
     }
     
     private func setup() {
-        addInteraction(UIDropInteraction(delegate: self ))
+        addInteraction(UIDropInteraction(delegate: self))
     }
     
     func dropInteraction(_ interaction: UIDropInteraction, canHandle session: UIDropSession) -> Bool {
@@ -45,6 +45,7 @@ class EmojiArtView: UIView, UIDropInteractionDelegate {
         label.attributedText = attributedString
         label.sizeToFit()
         label.center = point
+        addEmojiArtGestureRecognizers(to: label)
         addSubview(label)
     }
     

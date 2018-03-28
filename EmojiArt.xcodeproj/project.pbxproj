@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11EF188D206C114700126D75 /* TextFieldCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EF188C206C114700126D75 /* TextFieldCollectionViewCell.swift */; };
 		FBBE700B20644C93001F3018 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBE700A20644C93001F3018 /* AppDelegate.swift */; };
 		FBBE701020644C93001F3018 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBBE700E20644C93001F3018 /* Main.storyboard */; };
 		FBBE701220644C93001F3018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBBE701120644C93001F3018 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11EF188C206C114700126D75 /* TextFieldCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCollectionViewCell.swift; sourceTree = "<group>"; };
 		FBBE700720644C93001F3018 /* EmojiArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBBE700A20644C93001F3018 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBBE700F20644C93001F3018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				FBBE701D2064508B001F3018 /* EmojiArtViewController.swift */,
+				11EF188C206C114700126D75 /* TextFieldCollectionViewCell.swift */,
 				FBBE702920697C2E001F3018 /* EmojiCollectionViewCell.swift */,
 				FBBE7025206590B3001F3018 /* EmojiArtTableViewController.swift */,
 				FBBE701F206450D1001F3018 /* EmojiArtView.swift */,
@@ -163,6 +166,7 @@
 				FBBE702C206A9DEF001F3018 /* EmojiArtView+Gestures.swift in Sources */,
 				FBBE702A20697C2E001F3018 /* EmojiCollectionViewCell.swift in Sources */,
 				FBBE7026206590B3001F3018 /* EmojiArtTableViewController.swift in Sources */,
+				11EF188D206C114700126D75 /* TextFieldCollectionViewCell.swift in Sources */,
 				FBBE700B20644C93001F3018 /* AppDelegate.swift in Sources */,
 				FBBE701E2064508B001F3018 /* EmojiArtViewController.swift in Sources */,
 				FBBE7020206450D1001F3018 /* EmojiArtView.swift in Sources */,
