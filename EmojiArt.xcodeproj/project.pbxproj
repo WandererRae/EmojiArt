@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		FBBE700B20644C93001F3018 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBE700A20644C93001F3018 /* AppDelegate.swift */; };
-		FBBE700D20644C93001F3018 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBE700C20644C93001F3018 /* ViewController.swift */; };
 		FBBE701020644C93001F3018 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBBE700E20644C93001F3018 /* Main.storyboard */; };
 		FBBE701220644C93001F3018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBBE701120644C93001F3018 /* Assets.xcassets */; };
 		FBBE701520644C93001F3018 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBBE701320644C93001F3018 /* LaunchScreen.storyboard */; };
+		FBBE701E2064508B001F3018 /* EmojiArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBE701D2064508B001F3018 /* EmojiArtViewController.swift */; };
+		FBBE7020206450D1001F3018 /* EmojiArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBE701F206450D1001F3018 /* EmojiArtView.swift */; };
+		FBBE702420657732001F3018 /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBE702320657732001F3018 /* ImageFetcher.swift */; };
+		FBBE7026206590B3001F3018 /* EmojiArtTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBE7025206590B3001F3018 /* EmojiArtTableViewController.swift */; };
+		FBBE702A20697C2E001F3018 /* EmojiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBE702920697C2E001F3018 /* EmojiCollectionViewCell.swift */; };
+		FBBE702C206A9DEF001F3018 /* EmojiArtView+Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBE702B206A9DEE001F3018 /* EmojiArtView+Gestures.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FBBE700720644C93001F3018 /* EmojiArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBBE700A20644C93001F3018 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FBBE700C20644C93001F3018 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FBBE700F20644C93001F3018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FBBE701120644C93001F3018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBBE701420644C93001F3018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBBE701620644C93001F3018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBBE701D2064508B001F3018 /* EmojiArtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtViewController.swift; sourceTree = "<group>"; };
+		FBBE701F206450D1001F3018 /* EmojiArtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtView.swift; sourceTree = "<group>"; };
+		FBBE702320657732001F3018 /* ImageFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFetcher.swift; sourceTree = "<group>"; };
+		FBBE7025206590B3001F3018 /* EmojiArtTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtTableViewController.swift; sourceTree = "<group>"; };
+		FBBE702920697C2E001F3018 /* EmojiCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiCollectionViewCell.swift; sourceTree = "<group>"; };
+		FBBE702B206A9DEE001F3018 /* EmojiArtView+Gestures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EmojiArtView+Gestures.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,27 @@
 		FBBE700920644C93001F3018 /* EmojiArt */ = {
 			isa = PBXGroup;
 			children = (
-				FBBE700A20644C93001F3018 /* AppDelegate.swift */,
-				FBBE700C20644C93001F3018 /* ViewController.swift */,
+				FBBE701D2064508B001F3018 /* EmojiArtViewController.swift */,
+				FBBE702920697C2E001F3018 /* EmojiCollectionViewCell.swift */,
+				FBBE7025206590B3001F3018 /* EmojiArtTableViewController.swift */,
+				FBBE701F206450D1001F3018 /* EmojiArtView.swift */,
+				FBBE702B206A9DEE001F3018 /* EmojiArtView+Gestures.swift */,
+				FBBE702320657732001F3018 /* ImageFetcher.swift */,
 				FBBE700E20644C93001F3018 /* Main.storyboard */,
-				FBBE701120644C93001F3018 /* Assets.xcassets */,
-				FBBE701320644C93001F3018 /* LaunchScreen.storyboard */,
+				FBBE701C20645042001F3018 /* Supporting Files */,
 				FBBE701620644C93001F3018 /* Info.plist */,
 			);
 			path = EmojiArt;
+			sourceTree = "<group>";
+		};
+		FBBE701C20645042001F3018 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBBE700A20644C93001F3018 /* AppDelegate.swift */,
+				FBBE701120644C93001F3018 /* Assets.xcassets */,
+				FBBE701320644C93001F3018 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +159,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBBE700D20644C93001F3018 /* ViewController.swift in Sources */,
+				FBBE702420657732001F3018 /* ImageFetcher.swift in Sources */,
+				FBBE702C206A9DEF001F3018 /* EmojiArtView+Gestures.swift in Sources */,
+				FBBE702A20697C2E001F3018 /* EmojiCollectionViewCell.swift in Sources */,
+				FBBE7026206590B3001F3018 /* EmojiArtTableViewController.swift in Sources */,
 				FBBE700B20644C93001F3018 /* AppDelegate.swift in Sources */,
+				FBBE701E2064508B001F3018 /* EmojiArtViewController.swift in Sources */,
+				FBBE7020206450D1001F3018 /* EmojiArtView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
